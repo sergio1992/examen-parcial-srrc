@@ -18,7 +18,7 @@ $(document).ready(function(){
                 },
                 success:function(resultado){
                     $("#resultado").html(resultado)
-                    
+                    alert("ya estuvo");
                 }
                 
             

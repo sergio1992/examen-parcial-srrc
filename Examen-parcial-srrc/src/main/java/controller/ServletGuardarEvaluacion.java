@@ -35,7 +35,8 @@ public class ServletGuardarEvaluacion extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
    SessionFactory factory=  NewHibernateUtil.getSessionFactory();
-   Session sesion= NewHibernateUtil.openSession();
+   Session sesion= NewHibernateUtil.getSessionFactory()
+           
    
      
      
